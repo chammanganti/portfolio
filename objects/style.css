@@ -1,0 +1,87 @@
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans Mono", system-ui, -apple-system, sans-serif;
+  color: #333;
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .container {
+    padding: 0 8rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 16rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    padding: 0 calc(100% - 70%);
+  }
+}
+
+#box {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  row-gap: 1rem;
+  height: calc(100vh - 16rem);
+}
+
+h2 {
+  font-weight: unset;
+}
+
+#name {
+  color: #0078ff;
+}
+
+#social {
+  list-style: none;
+}
+
+#social > li {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+#social > li > a {
+  text-decoration: none;
+  color: #333;
+}
+
+#social > li > a:hover {
+  color: #0078ff;
+}
+
+#page {
+  color: #0078ff;
+}
+
+#here {
+  text-decoration: underline;
+  color: #333;
+}
+
+#here:hover {
+  color: #0078ff;
+}
