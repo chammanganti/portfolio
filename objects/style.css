@@ -64,6 +64,10 @@ h2 {
   column-gap: 0.5rem;
 }
 
+#social > li:not(:last-child) {
+  padding-bottom: 0.75rem;
+}
+
 #social > li > a {
   text-decoration: none;
   color: #333;
